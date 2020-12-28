@@ -15,11 +15,11 @@ grid-template-areas: "hd"
 grid-area: "hd";font-family: "Brush Script MT",cursive;font-size: 25px;margin: 0;padding: 0;}
 .sidbar{grid-area: sd;;background-color: #ff8585;width: 21em;height: 14em;border: 1px solid; margin-top: 0;
 margin-bottom: 8px;border-radius: 10%;padding: 10px}
-.main{grid-area: main;background-color: #ff8585;width: 21em;height: 14em;border: 1px solid; margin-top: 0;
+.main{grid-area: main;background-color: #ff8585;width: 21em;height: 15em;border: 1px solid; margin-top: 0;
 margin-bottom: 8px;border-radius: 10%;padding: 10px}
-.feat{grid-area:feat;;background-color: #ff8585;width: 21em;height: 14em;border: 1px solid; margin-top: 0;
+.feat{grid-area:feat;;background-color: #ff8585;width: 21em;height: 15em;border: 1px solid; margin-top: 0;
 margin-bottom: 3px;border-radius: 10%;padding: 10px}
-.footer{grid-area: ft;background-color: #cd5d7d;width: 24em;height: 14em;margin-top: 0; margin-bottom: 0;text-align: center;margin-left: 10px}
+.footer{grid-area: ft;background-color: #cd5d7d;width: 24em;height: 15em;margin-top: 0; margin-bottom: 0;text-align: center;margin-left: 10px}
 #bella{margin-top: 0;}
   /* Style the submit button */
  button {position: relative; left:230px; bottom:80px;
