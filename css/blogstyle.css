@@ -1,0 +1,21 @@
+body{background-color: #cd5d7d;color: #f6ecf0;}
+.container{display: grid;
+grid-template-columns: repeat(5.1fr);
+grid-template-rows: repeat(5.1fr);
+gap: 50px;
+grid-template-areas: "hd"
+"sd"
+"feat"
+"main"
+"ft"}
+.annebloge{display: flex; background-color: #ff8585}
+.header {display: grid;justify-content: center;
+grid-area: "hd";font-family: "Brush Script MT",cursive;font-size: 25px;margin: 0;padding: 0;}
+h1{text-align: center;}
+
+/*images*/
+#anne{border-radius: 90%}
+/*table*/
+.table{margin:5px;font-family: 'Redressed', cursive;
+}
+/*hover*/
