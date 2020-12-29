@@ -2,7 +2,6 @@ body {
   background-color: #cd5d7d;
   color: #f6ecf0;
 }
-
 .container {
   display: grid;
   grid-template-columns: repeat(5.1fr);
@@ -15,13 +14,11 @@ body {
     "main"
     "ft";
 }
-
 .annebloge {
   display: flex;
   background-color: #ff8585;
   border-radius: 10%;
 }
-
 .header {
   display: grid;
   justify-content: center;
@@ -35,19 +32,16 @@ body {
 h1 {
   text-align: center;
 }
-
 .social {
   display: flex;
   background-color: #ff8585;
   margin-top: 7px;
   border-radius: 10%;
 }
-
 /*images*/
 #anne {
   border-radius: 90%;
 }
-
 /*table*/
 .table {
   margin: 5px;
