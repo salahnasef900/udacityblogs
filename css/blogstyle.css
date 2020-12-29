@@ -1,49 +1,55 @@
 body {
-    background-color: #cd5d7d;
-    color: #f6ecf0;
+  background-color: #cd5d7d;
+  color: #f6ecf0;
 }
+
 .container {
-    display: grid;
-    grid-template-columns: repeat(5.1fr);
-    grid-template-rows: repeat(5.1fr);
-   grid-gap: 50px;
-    grid-template-areas:
-        "hd"
-        "sd"
-        "feat"
-        "main"
-        "ft";
+  display: grid;
+  grid-template-columns: repeat(5.1fr);
+  grid-template-rows: repeat(5.1fr);
+  grid-gap: 50px;
+  grid-template-areas:
+    "hd"
+    "sd"
+    "feat"
+    "main"
+    "ft";
 }
+
 .annebloge {
-    display: flex;
-    background-color: #ff8585;
-    border-radius: 10%;
+  display: flex;
+  background-color: #ff8585;
+  border-radius: 10%;
 }
+
 .header {
-    display: grid;
-    justify-content: center;
-    grid-area: "hd";
-    font-family: "Brush Script MT", cursive;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
+  display: grid;
+  justify-content: center;
+  grid-area: "hd";
+  font-family: "Brush Script MT", cursive;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
 }
+
 h1 {
-    text-align: center;
+  text-align: center;
 }
+
 .social {
-    display: flex;
-    background-color: #ff8585;
-    margin-top: 7px;
-    border-radius: 10%;
+  display: flex;
+  background-color: #ff8585;
+  margin-top: 7px;
+  border-radius: 10%;
 }
 
 /*images*/
 #anne {
-    border-radius: 90%;
+  border-radius: 90%;
 }
+
 /*table*/
 .table {
-    margin: 5px;
-    font-family: "Redressed", cursive;
+  margin: 5px;
+  font-family: "Redressed", cursive;
 }
