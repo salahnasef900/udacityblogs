@@ -2,9 +2,9 @@ body {
   background-color: #cd5d7d;
   color: #f6ecf0;
 }
-@import "styles.css"screen and (max-width: 768px);
+@import "favicon (1.ico)"screen and (max-width: 768px);
 @import url("blogstyle.css");
-@import "printstyle.css"print;
+@import "blog.html"print;
 /* mobile design first*/
 .container {
   display: grid;
