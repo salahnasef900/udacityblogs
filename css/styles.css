@@ -3,8 +3,8 @@ body {
   color: #f6ecf0;
 }
 @import "favicon (1.ico)"screen and (max-width: 768px);
-@import url("blogstyle.css");
-@import "blog.html"print;
+@import url("css/bigscreen.css") and (min-width:901px);
+@import url("css/blogstyle.css")print;
 /* mobile design first*/
 .container {
   display: grid;
